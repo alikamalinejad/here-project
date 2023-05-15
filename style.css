@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    transition: all ease 400ms;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.cover {
+    width: 100vw;
+    height: 100vh;
+    background: url(img/destiny_2_beyond_light_2020_game_europa-wallpaper-3440x1440.jpg) center/cover no-repeat;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient( rgba(22, 22, 22, 0.233), rgba(8, 8, 8, 0.534));
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+
+}
+
+.nav .navitem {
+    display: inline-block;
+    height: 100%;
+}
+
+.login {
+    text-align: center;
+    padding: 8px;
+}
+
+.nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav a:hover {
+    color: rgb(160, 160, 160);
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    padding-top: 8px;
+    margin-left: 10px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menuitem {
+    display: inline-block;
+    padding: 12px;
+}
+
+.bten {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* text-decoration: none;
+    color: whitesmoke;
+    background-color: none; */
+    /* text-align: center;
+    vertical-align: middle; */
+}
+
+.strt {
+    border: none;
+    background-color: rgba(135, 57, 187, 0);
+    border: 2px solid rgba(209, 209, 209, 0.808);
+    color: rgb(196, 196, 196);
+    font-size: 21px;
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.bten:hover .strt {
+    /* width: 185px;
+    height: 85px;
+    font-size: 23px; */
+    color: rgb(94, 66, 128);
+    border: 2px solid rgba(209, 209, 209, 0.808);
+    background-color: rgba(209, 209, 209, 0.829);
+}
+
+.sub_links {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.sub_links .link {
+    display: inline-block;
+    padding: 0 18px;
+}
+.link img {
+    width: 30px;
+    opacity:70%;
+}
+.link img:hover {
+    opacity:100%;
+}
